@@ -1,0 +1,13 @@
+.header-container {
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+.header-opt {
+    display: flex;
+}
+.logo {
+    flex-grow: 1;
+}
+.logo img {
+    width: 35px;
+}

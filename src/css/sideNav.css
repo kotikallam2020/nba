@@ -1,0 +1,136 @@
+
+.options {
+    font-weight: 300;
+    font-size: 12px;
+    color: #bababa;
+    padding: 10px;
+    border-top: 1px solid #404040;
+}
+.options a {
+    color: inherit;
+    text-decoration: none;
+}
+.featured-item {
+    position: relative;
+}
+.featured-item a {
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     text-decoration: none;
+     right: 0;
+}
+.featured-image{
+    height: 400px;
+    width:600px;
+    margin:0 auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.featured-image img {
+    width:100%;
+    height: 100%;
+}
+
+.featured-title {
+    text-align: center;
+    color: #fff;
+}
+.news-list-item {
+    border: 1px solid #f2f2f2;
+    background:#fff;
+    margin-top:0px;
+    padding: 8px 5px 0 5px;
+
+}
+.news-list-item h2 {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 5px 0;
+    color: #525252;
+}
+.news-list-item a {
+    text-decoration: none;
+    
+}
+.newsList-wrapper {
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translate(-100%);
+    transition: all .5s ease-in;
+
+}
+.newsList-wrapper-enter {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.card-info {
+    font-size: 11px;
+}
+.team-name {
+    margin-right:7px;
+    background: #d1d1d1;
+    color:rgb(245, 10, 108);
+    padding:2px 5px; 
+    font-weight: 700;
+}
+.date {
+    color:#0a85eb;
+}
+.videoslist-wrapper h3{
+    text-align: center;
+    margin:20px;
+    color:#353535;
+    font-weight: 300;
+    font-size: 21px;
+}
+.blue-btn {
+    text-align: center;
+    background-color: #2196f3;
+    border-bottom: 1px solid #d7d7d7;
+    color: #eee;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    padding:9px;
+    display: block;
+
+}
+.video-list-item-wrapper {
+    display: flex;
+    border-bottom: 2px solid #d5d5d5;
+    background: #fff;
+}
+.video-list-item-wrapper  h2{
+    font-size: 13px;
+    color:#525252;
+}
+.left {
+    background-size: cover !important;
+}
+.left div {
+    width:90px;
+    height: 90px;
+    background-size:90px !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background: url('/images/play.png') ; 
+}
+.right {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.sidenav-items-wrapper {
+    margin-top: 15px;
+}
+.sidenav-items-wrapper div {
+    padding: 10px;
+    cursor: pointer;
+}
+.sidenav-items-wrapper div:hover {
+    background-color: #666;
+}
+.sidenav-items-wrapper a{
+    color: #fff;
+}

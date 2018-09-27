@@ -1,0 +1,29 @@
+{
+  "name": "nba",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.5.1",
+    "react-css-transition": "^0.7.4",
+    "react-dom": "^16.5.1",
+    "react-fontawesome": "^1.6.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-simple-sidenav": "^1.0.1",
+    "react-slick": "^0.23.1",
+    "react-transition-group": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev-server": "json-server --watch db.json --port 3001",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
